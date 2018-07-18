@@ -4,7 +4,7 @@ This is a refugee management system built using django
 
   - Python3
   - Django 2.0+
-  -Sqlite
+  - Sqlite
 
 # Installation
 To run the development version :
@@ -18,6 +18,13 @@ $ python3 manage.py makemigrations
 $ python3 manage.py migrate
 $ python3 manage.py collectstatic
 $ python3 manage.py createsuperuser
+
+
+$ python manage.py shell
+
+from database_set_up import main as db_main
+db_main()
+exit()
 ```
 
 -Finally run
