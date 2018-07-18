@@ -1,6 +1,5 @@
 django>=2.0
 pillow
 django-widget-tweaks
-mysqlclient
 celery
 xhtml2pdf
