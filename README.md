@@ -12,11 +12,11 @@ To run the development version :
   - clone this repo
   - navigate into the root folder
   - run the following in terminal
+  ** Note if you are on windows use python without the 3 suffix
    ```sh
 $ pip install -r requirements.txt
 $ python3 manage.py makemigrations
 $ python3 manage.py migrate
-$ python3 manage.py collectstatic
 $ python3 manage.py createsuperuser
 
 
