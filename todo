@@ -1,0 +1,12 @@
+Users :
+Admin
+--Register all Users
+Donors
+--only view all actions
+Projects manager
+--view all actions
+Projects Officer
+--view create refugees, update food, allocate food
+Enumerator
+--create refugees, distribute food
+Beneficiaries

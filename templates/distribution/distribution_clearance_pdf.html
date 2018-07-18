@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>Distribution to {{ distribution.refugee.name }}</title>
+</head>
+<body>
+    <h3>Distribution to {{ distribution.refugee.name }}</h3>
+    <table>
+        <tr>
+            <td>Refugee Name</td>
+            <td>{{ distribution.refugee.name }}</td>
+        </tr>
+        <tr>
+            <td>Date Allocated</td>
+            <td>{{ distribution.allocation_time | date }}</td>
+        </tr>
+        <tr>
+            <td>Food</td>
+            <td>{{ distribution.food.name }}</td>
+        </tr>
+        <tr>
+            <td>Quantity</td>
+            <td>{{ distribution.quantity }} {{ distribution.food.unit.abbreviation }}</td>
+        </tr>
+        <tr>
+            <td>Expected Picking Date</td>
+            <td>{{ distribution.picking_time|date }}</td>
+        </tr>
+    </table>
+</body>
+</html>

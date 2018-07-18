@@ -1,0 +1,43 @@
+<html>
+<head>
+    <title>{{ site_title }} - List of Refugees</title>
+</head>
+<body>
+<h3>{{ site_title }}</h3>
+
+<h3>List of refugees</h3>
+
+<table>
+    <thead>
+    <tr>
+        <th class="wd-15p">Name</th>
+        <th class="wd-15p">Date of Birth</th>
+        <th class="wd-20p">Gender</th>
+        <th class="wd-15p">Telephone</th>
+        <th class="wd-15p">Address</th>
+        <th class="wd-15p">Date Registered</th>
+    </tr>
+    </thead>
+    {% for refugee in refugee_list %}
+    <tr>
+        <td class="wd-15p">{{ refugee.name }}</td>
+        <td class="wd-15p">{{ refugee.date_of_birth }}</td>
+        <td class="wd-20p">{{ refugee.gender }}</td>
+        <td class="wd-15p">{{ refugee.telephone }}</td>
+        <td class="wd-15p">{{ refugee.address }}</td>
+        <td class="wd-15p">{{ refugee.date_time_registered }}</td>
+    </tr>
+    {% endfor %}
+    <thead>
+    <tr>
+        <th class="wd-15p">Name</th>
+        <th class="wd-15p">Date of Birth</th>
+        <th class="wd-20p">Gender</th>
+        <th class="wd-15p">Telephone</th>
+        <th class="wd-15p">Address</th>
+        <th class="wd-15p">Date Registered</th>
+    </tr>
+    </thead>
+</table>
+</body>
+</html>
