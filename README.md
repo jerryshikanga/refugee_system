@@ -22,6 +22,9 @@ $ python3 manage.py createsuperuser
 
 $ python manage.py shell
 
+```
+In the shell prompt : 
+``` python3
 from database_set_up import main as db_main
 db_main()
 exit()
