@@ -1,5 +1,4 @@
 django>=2.0
 pillow
 django-widget-tweaks
-celery
 xhtml2pdf
